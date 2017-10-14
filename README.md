@@ -1,6 +1,11 @@
-# Site web de l'association M2 Droit du numérique
+# Site web de l'association M2 Droit du numérique de Caen
 
 *Site vitrine présentant l'activité de l'association et le M2*
+
+## Auteurs :
+
+- AODeltaB @AOH-TeamDev
+- AOSauron @AOH-TeamDev
 
 ## Dépendances nécessaires au développement
 
@@ -13,8 +18,8 @@
 
 L'adresse de test immédiat est la suivante :
 
-`(http://2.5.13.168/prototype/)[http://2.5.13.168/prototype/]`
+[http://2.5.13.168/prototype/](http://2.5.13.168/prototype/)
 
-L'adresse de démonstration est la suivante (synchronisations moins fréquentes)
+L'adresse de démonstration est la suivante (synchronisations moins fréquentes) :
 
-`(http://hardlife-rp.ovh/prototype/)[http://hardlife-rp.ovh/prototype/]`
+[http://hardlife-rp.ovh/prototype/](http://hardlife-rp.ovh/prototype/)
