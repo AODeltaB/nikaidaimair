@@ -15,7 +15,6 @@
 
 <body>
     <div class="header">
-<<<<<<< HEAD
     </div>
   <nav>
     <div class="topnavT w3-content">
@@ -25,18 +24,6 @@
       <a href="">ACTIVITES</a>
       <a href="contact.php">CONTACTS</a>
       <a href="">LE MASTER</a>
-=======
-      bouge le menu stp merci
-    </div>
-
-
-  <nav>
-    <div class="topnavT w3-content">
-      <a href="">ACCUEIL</a>
-      <a href="">PROMOTIONS</a>
-      <a href="">INTERVENANTS</a>
-      <a href="">ACTIVITES</a>
->>>>>>> 347bedf7fac823092e1e3be54201c2cb03c03dae
     </div>
   </nav>
   <br>
