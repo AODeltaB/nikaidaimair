@@ -28,13 +28,16 @@
   </nav>
   <br>
   <div class="container">
-  <form action="/action_page.php">
+  <form method="post" action="action_contact.php">
+    <label for="lname">Email :</label>
+    <input type="text" id="lname" name="email" placeholder="Votre Email...">
 
     <label for="fname">Prénom</label>
-    <input type="text" id="fname" name="firstname" placeholder="Votre Prénom...">
+    <input type="text" id="fname" name="prenom" placeholder="Votre Prénom...">
 
     <label for="lname">Nom</label>
-    <input type="text" id="lname" name="lastname" placeholder="Votre Nom...">
+    <input type="text" id="lname" name="nom" placeholder="Votre Nom...">
+
 
 
     <label for="subject">Sujet</label>
@@ -48,10 +51,11 @@
 
 <!-- Footer -->
 <footer class="w3-container w3-padding-64 w3-center w3-black w3-xlarge">
-  <a href="#"><i class="fa fa-facebook-official"></i></a>
+  <a href="https://www.facebook.com/M2NumeriqueCaen/?fref=ts"><i class="fa fa-facebook-official"></i></a>
   <a href="#"><i class="fa fa-linkedin"></i></a>
+  <a href="#"><i class="fa fa-instagram"></i></a>
   <p class="w3-medium">
-    Powered by <a href="http://google.fr/" target="_blank">Pierre Fortin</a>
+    Powered by <a href="https://www.linkedin.com/in/pierre-fortin-6b6908139/" target="_blank">Pierre Fortin</a>
   </p>
 </footer>
 
