@@ -30,6 +30,23 @@
 
 <p>METTRE BOX POUR CHAQUE ELEVES DE PROMO + PHOTO SHORT DESCRIPTION</p>
 
+<div class="w3-center w3-padding-64 w3-container w3-medium">
+  <h2>PROMO 2017</h2>
+  <p class="w3-medium"></p>
+</div>
+<div class="card w3-center">
+  <img src="img/logo.jpg" alt="" style="width:50%">
+  <h1>Pierre Fortin</h1>
+  <p class="title">Webmanager</p>
+  <p>BTS SNIR 2°</p>
+  <a href="#"><i class="fa fa-snapchat"></i></a>
+  <a href="#"><i class="fa fa-instagram"></i></a>
+  <a href="#"><i class="fa fa-twitter"></i></a>
+  <a href="#"><i class="fa fa-linkedin"></i></a>
+  <a href="#"><i class="fa fa-facebook"></i></a>
+  <p><button class="bouton">Contacter</button></p>
+</div>
+
 
 </body>
 
