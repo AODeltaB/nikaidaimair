@@ -36,9 +36,9 @@
 </div>
 
 <!-- ESPACE CONTACT CARD -->
-
+<div class="espace_carte">
 <!-- PF CARD -->
-<div class="card">
+<div class="cardperso">
   <img src="img/logo.jpg" alt="" style="width:50%">
   <h1>Pierre Fortin</h1>
   <p class="title">Webmanager</p>
@@ -53,11 +53,11 @@
 
 <!-- CF CARD -->
 
-<div class="card w3-center">
-  <img src="img/presentation.jpg" alt="" style="width:50%">
+<div class="cardperso">
+  <img src="img/logo.jpg" alt="" style="width:50%">
   <h1>Camille Fortin</h1>
   <p class="title">Soeur</p>
-  <p>d'un grand géni !</p>
+  <p>d'un grand génie !</p>
   <a href="#"><i class="fa fa-snapchat"></i></a>
   <a href="#"><i class="fa fa-instagram"></i></a>
   <a href="#"><i class="fa fa-twitter"></i></a>
@@ -66,7 +66,7 @@
   <p><button class="bouton">Contacter</button></p>
 </div>
 
-
+</div>
 
 </body>
 
