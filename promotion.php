@@ -16,6 +16,7 @@
 <body>
     <div class="header">
     </div>
+    <!-- NAVBAR -->
     <nav>
       <div class="topnavT">
       <a href="index.php">ACCUEIL</a>
@@ -27,14 +28,17 @@
     </div>
   </nav>
   <br>
-
-<p>METTRE BOX POUR CHAQUE ELEVES DE PROMO + PHOTO SHORT DESCRIPTION</p>
-
+<!-- BANDEROLLE PROMO  -->
+<div class="header_promo">
 <div class="w3-center w3-padding-64 w3-container w3-medium">
   <h2>PROMO 2017</h2>
-  <p class="w3-medium"></p>
 </div>
-<div class="card w3-center">
+</div>
+
+<!-- ESPACE CONTACT CARD -->
+
+<!-- PF CARD -->
+<div class="card">
   <img src="img/logo.jpg" alt="" style="width:50%">
   <h1>Pierre Fortin</h1>
   <p class="title">Webmanager</p>
@@ -46,6 +50,22 @@
   <a href="#"><i class="fa fa-facebook"></i></a>
   <p><button class="bouton">Contacter</button></p>
 </div>
+
+<!-- CF CARD -->
+
+<div class="card w3-center">
+  <img src="img/presentation.jpg" alt="" style="width:50%">
+  <h1>Camille Fortin</h1>
+  <p class="title">Soeur</p>
+  <p>d'un grand géni !</p>
+  <a href="#"><i class="fa fa-snapchat"></i></a>
+  <a href="#"><i class="fa fa-instagram"></i></a>
+  <a href="#"><i class="fa fa-twitter"></i></a>
+  <a href="#"><i class="fa fa-linkedin"></i></a>
+  <a href="#"><i class="fa fa-facebook"></i></a>
+  <p><button class="bouton">Contacter</button></p>
+</div>
+
 
 
 </body>
