@@ -28,24 +28,22 @@
   </nav>
   <br>
 
-  <section class="w3-container w3-center w3-content" style="max-width:600px">
-    <h2 class="w3-wide">Master 2</h2>
-    <p class="w3-opacity"><i>Droit du Numérique - Caen</p>
-      <img src="img/logo.jpg"></img>
-    </section>
-  </body>
+<p>METTRE BOX POUR CHAQUE ELEVES DE PROMO + PHOTO SHORT DESCRIPTION</p>
 
-  <!-- Footer -->
-  <footer class="w3-container w3-padding-64 w3-center w3-black w3-xlarge">
-    <a href="https://www.facebook.com/M2NumeriqueCaen/?fref=ts"><i class="fa fa-facebook-official"></i></a>
-    <a href="#"><i class="fa fa-linkedin"></i></a>
-    <a href="#"><i class="fa fa-instagram"></i></a>
-    <a href="#"><i class="fa fa-twitter"></i></a>
-    <p class="w3-medium">
-      Powered by <a href="https://www.linkedin.com/in/pierre-fortin-6b6908139/s" target="_blank">Pierre Fortin</a>
-    </p>
-  </footer>
+
+</body>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-black w3-xlarge">
+  <a href="https://www.facebook.com/M2NumeriqueCaen/?fref=ts"><i class="fa fa-facebook-official"></i></a>
+  <a href="#"><i class="fa fa-linkedin"></i></a>
+  <a href="#"><i class="fa fa-instagram"></i></a>
+  <a href="#"><i class="fa fa-twitter"></i></a>
+  <p class="w3-medium">
+    Powered by <a href="https://www.linkedin.com/in/pierre-fortin-6b6908139/s" target="_blank">Pierre Fortin</a>
+  </p>
+</footer>
 
 
 
-  </html>
+</html>
