@@ -20,7 +20,7 @@
 <!-- BODY -->
 <body>
   <nav role="navigation">
-      <div class="nav-wrapper container">
+    <div class="nav-wrapper container">
       <ul class="right hide-on-med-and-down">
         <li><a href="index.php">ACCUEIL</a></li>
         <li><a href="promotion.php">PROMOTION</a></li>
@@ -42,28 +42,37 @@
   </nav>
 
   <br>
-
   <section class="w3-container w3-center w3-content" style="max-width:600px">
-    <h2 class="w3-wide">Master 2</h2>
-    <p class="w3-opacity"><i>Droit du Numérique - Caen</p>
+    <!-- <h2 class="w3-wide">Master 2</h2>
+    <p class="w3-opacity"><i>Droit du Numérique - Caen</p> -->
       <img src="img/logo.jpg"></img>
     </section>
 
-  <!-- Footer -->
-  <footer class="w3-container w3-padding-64 w3-center w3-black w3-xlarge">
-    <a href="https://www.facebook.com/M2NumeriqueCaen/?fref=ts"><i class="fa fa-facebook-official"></i></a>
-    <a href="#"><i class="fa fa-linkedin"></i></a>
-    <a href="#"><i class="fa fa-instagram"></i></a>
-    <a href="#"><i class="fa fa-twitter"></i></a>
-    <p class="w3-medium">
-      Powered by <a href="https://www.linkedin.com/in/pierre-fortin-6b6908139/s" target="_blank">Pierre Fortin</a>
-    </p>
-  </footer>
 
+    <div class="w3-center w3-padding-64 w3-container w3-xlarge">
+      <h2>Vidéo Présentation</h2>
+      <p class="w3-medium">Présentation du Master</p>
+      <video class="responsive-video" controls>
+        <source src="movie.mp4" type="video/mp4">
+        </video>
+      </div>
 
-  <!-- Script  -->
-  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script src="js/materialize.js"></script>
-  <script src="js/init.js"></script>
-</body>
-  </html>
+      <!-- Footer -->
+      <footer class="w3-container w3-padding-64 w3-center w3-black w3-xlarge">
+        <a href="https://www.facebook.com/M2NumeriqueCaen/?fref=ts"><i class="fa fa-facebook-official"></i></a>
+        <a href="#"><i class="fa fa-linkedin"></i></a>
+        <a href="#"><i class="fa fa-instagram"></i></a>
+        <a href="#"><i class="fa fa-twitter"></i></a>
+        <p class="w3-medium">
+          Powered by <a href="https://www.linkedin.com/in/pierre-fortin-6b6908139/s" target="_blank">Pierre Fortin</a>
+        </p>
+      </footer>
+
+      <!-- Script  -->
+      <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <script src="js/materialize.js"></script>
+      <script src="js/init.js"></script>
+      <script src="js/script.js"></script>
+
+    </body>
+    </html>
