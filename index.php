@@ -2,30 +2,45 @@
 
 <html>
 
-
+<!-- HEAD -->
 <head>
+  <!-- <link rel="icon" href="logo.png" /> -->
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
   <title>Master 2, Droit du Numérique - Caen</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+
+  <!-- CSS -->
   <link rel='stylesheet' type='text/css' href='style/style.css'/>
+  <link href="style/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link rel='stylesheet' href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel='stylesheet' href="https://www.w3schools.com/w3css/3/w3.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
-  <!-- <meta name='viewport' content="device-width, initial-scale=1"> -->
 </head>
 
-
+<!-- BODY -->
 <body>
-    <div class="header">
-    </div>
-    <nav>
-      <div class="topnavT">
-      <a href="index.php">ACCUEIL</a>
-      <a href="promotion.php">PROMOTION</a>
-      <a href="">INTERVENANTS</a>
-      <a href="">ACTIVITES</a>
-      <a href="contact.php">CONTACTS</a>
-      <a href="">LE MASTER</a>
+  <nav role="navigation">
+      <div class="nav-wrapper container">
+      <ul class="right hide-on-med-and-down">
+        <li><a href="index.php">ACCUEIL</a></li>
+        <li><a href="promotion.php">PROMOTION</a></li>
+        <li><a href="">INTERVENANTS</a></li>
+        <li><a href="">ACTIVITES</a></li>
+        <li><a href="contact.php">CONTACTS</a></li>
+        <li><a href="">LE MASTER</a></li>
+      </ul>
+      <ul id="nav-mobile" class="side-nav">
+        <li><a href="index.php">ACCUEIL</a></li>
+        <li><a href="promotion.php">PROMOTION</a></li>
+        <li><a href="">INTERVENANTS</a></li>
+        <li><a href="">ACTIVITES</a></li>
+        <li><a href="contact.php">CONTACTS</a></li>
+        <li><a href="">LE MASTER</a></li>
+      </ul>
+      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">Menu</i></a>
     </div>
   </nav>
+
   <br>
 
   <section class="w3-container w3-center w3-content" style="max-width:600px">
@@ -33,7 +48,6 @@
     <p class="w3-opacity"><i>Droit du Numérique - Caen</p>
       <img src="img/logo.jpg"></img>
     </section>
-  </body>
 
   <!-- Footer -->
   <footer class="w3-container w3-padding-64 w3-center w3-black w3-xlarge">
@@ -47,5 +61,9 @@
   </footer>
 
 
-
+  <!-- Script  -->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+</body>
   </html>

@@ -6,6 +6,14 @@ if($_SERVER['REQUEST_METHOD']=='POST') {
   $email = htmlentities($_POST['email']);
   $message = htmlentities($_POST['message']);
 
+  if (($nom=="")||($email=="")||($message=="")|($prenom==""))
+  {
+    echo '<script>alert("Tous les champs sont nécesaires");</script>';
+  }
+
+  else
+  {
+
 
   $destinataire = 'aodeltab@gmail.com';
   $sujet = 'M2 Droit Num Caen - Contact';
@@ -22,11 +30,14 @@ if($_SERVER['REQUEST_METHOD']=='POST') {
 
 
   mail($destinataire, $sujet, $contenu, $headers);
-  echo "<h2>Message envoyé ! </h2>";
+  echo'<script>alert("Message envoyé !");</script>';
+  sleep(2);
+  header('Location: index.php');
+    }
 }
 
 
 
 
 
- ?>
+?>
