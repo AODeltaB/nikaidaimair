@@ -81,7 +81,7 @@ input[type=submit]:hover {
   background-color: #45a049;
 }
 
-  /*FIN CONTACT FORM*/
+/*FIN CONTACT FORM*/
 /*CONTACT CARD*/
 
 .espace_carte {
@@ -114,8 +114,8 @@ input[type=submit]:hover {
   /*border: 3px solid #333;*/
 }
 
-  /*FIN CONTACT CARD*/
-  /*STICKY MENU*/
+/*FIN CONTACT CARD*/
+/*STICKY MENU*/
 #navbar {
   overflow: hidden;
   /*background-color: #333;*/
@@ -133,4 +133,24 @@ input[type=submit]:hover {
 .sticky + .scrollContent {
   padding-top: 60px;
 }
-  /*FIN STICKY MENU*/
+/*FIN STICKY MENU*/
+
+/*FOOTER*/
+
+footer {
+  position:absolute;
+  bottom:0px;
+}
+
+.page-wrap {
+  min-height: 100%;
+  /* equal to footer height */
+  margin-bottom: -142px;
+}
+.page-wrap:after {
+  content: "";
+  display: block;
+}
+.site-footer, .page-wrap:after {
+  height: 142px;
+}

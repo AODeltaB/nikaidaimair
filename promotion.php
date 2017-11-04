@@ -24,18 +24,18 @@
       <ul class="right hide-on-med-and-down">
         <li><a href="index.php">ACCUEIL</a></li>
         <li><a href="promotion.php">PROMOTION</a></li>
-        <li><a href="">INTERVENANTS</a></li>
-        <li><a href="">ACTIVITES</a></li>
+        <li><a href="intervenants.php">INTERVENANTS</a></li>
+        <li><a href="activites.php">ACTIVITES</a></li>
         <li><a href="contact.php">CONTACTS</a></li>
-        <li><a href="">LE MASTER</a></li>
+        <li><a href="master.php">LE MASTER</a></li>
       </ul>
       <ul id="nav-mobile" class="side-nav">
         <li><a href="index.php">ACCUEIL</a></li>
         <li><a href="promotion.php">PROMOTION</a></li>
-        <li><a href="">INTERVENANTS</a></li>
-        <li><a href="">ACTIVITES</a></li>
+        <li><a href="intervenants.php">INTERVENANTS</a></li>
+        <li><a href="activites.php">ACTIVITES</a></li>
         <li><a href="contact.php">CONTACTS</a></li>
-        <li><a href="">LE MASTER</a></li>
+        <li><a href="master.php">LE MASTER</a></li>
       </ul>
       <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">Menu</i></a>
     </div>
