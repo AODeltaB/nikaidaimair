@@ -1,6 +1,4 @@
-<?php
-require 'config.php';
-?>
+
 <!DOCTYPE HTML>
 
 <html>
@@ -47,11 +45,11 @@ require 'config.php';
   <div class="formulaireConnexion w3-container w3-center">
     <h1>Administration du site</h1>
     <p>Gestion des articles / membres / site en général.</p>
-    <form method="post" action="login.php">
+    <form method="post" action="post_login.php">
       <label>Email : </label>
-      <input type="email" name="email" placeholder="Votre Mail...">
+      <input type="email" name="email" placeholder="Votre Mail..." required>
       <label>Mot de Passe</label>
-      <input type="password" name="password" placeholder="Votre mot de passe...">
+      <input type="password" name="password" placeholder="Votre mot de passe..." required>
       <input type="submit" name="submit" value="Se connecter">
     </form>
   </div>
@@ -76,26 +74,3 @@ require 'config.php';
 
 </body>
 </html>
-
-<?php
-session_start();
-if(isset($_POST['submit']))
-{
-  $email = htmlentities($_POST['email']);
-  $password = htmlentities($_POST['password']);
-
-  if($email&&$password) {
-
-    $password = md5($password);
-    $connect = mysql_connect($db_host,$db_user,$db_password);
-    mysql_select_db($db_name);
-    $query = mysql_query("SELECT * FROM membres WHERE email='$email'&&password='$password'");
-    $rows = mysql_num_rows($query);
-    if ($rows==1){
-      // $_SESSION['pseudo']=$username;
-      // header('Location: ../index.php');
-      echo "Fonctionne";
-    }else echo "Pseudo ou Password incorrect";
-  } else echo"Veuillez saisir tous les champs";
-}
-?>
