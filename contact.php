@@ -44,10 +44,10 @@
   <div class="w3-center w3-padding-64 w3-container w3-xlarge">
     <h2>Nous contacter :</h2>
     <p class="w3-medium">Nous suivre sur les réseaux :</p>
-    <a href="https://www.facebook.com/M2NumeriqueCaen/?fref=ts"><i class="fa fa-facebook-official"></i></a>
+    <h3><a href="https://www.facebook.com/M2NumeriqueCaen/?fref=ts"><i class="fa fa-facebook-official"></i></a>
     <a href="#"><i class="fa fa-linkedin"></i></a>
     <a href="#"><i class="fa fa-instagram"></i></a>
-    <a href="#"><i class="fa fa-twitter"></i></a>
+    <a href="#"><i class="fa fa-twitter"></i></a></h3>
   </div>
   <div class="container w3-padding-64">
     <form method="POST"  enctype="multipart/form-data">

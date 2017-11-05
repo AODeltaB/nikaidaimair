@@ -1,7 +1,5 @@
 <?php
-
-session_start();
-if(isset($_POST['submit']))
+if(isset($_POST['valider']))
 {
 // 1 : on ouvre le fichier
 // $fichierConfig = fopen('config.php', 'r+');
@@ -14,12 +12,6 @@ $nameDB = htmlentities(trim($_POST['nameDB']));
 $email = htmlentities(trim($_POST['email']));
 $password = htmlentities(trim($_POST['password']));
 
-
-
-// for (int i = 0; i >4;i++)
-// {
-//   fgets();
-// }
 // Create connection
 $conn = new mysqli($hostDB, $userDB, $passwordDB, $nameDB);
 
@@ -28,8 +20,7 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
     }
 echo "Connected successfully";
-$sql = "INSERT INTO membres ('id',email,'password','date_enregistrement')
-VALUES ('', $email, $password, 'NOW()')";
+$sql = "INSERT INTO membres (email, password, date_enregistrement) VALUES ('$email', '$password', NOW())";
 $result = $conn->query($sql);
 
 if ($conn->query($sql) === TRUE) {

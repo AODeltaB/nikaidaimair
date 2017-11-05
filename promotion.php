@@ -149,8 +149,8 @@
     <a href="http://www.linkedin.com/in/aperyth/"><i class="fa fa-linkedin"></i></a>
     <!-- <p><button class="bouton">Contacter</button></p> -->
   </div>
-
 </div>
+<br>
 <!-- Footer -->
 <footer class="w3-container w3-padding-64 w3-center w3-black w3-xlarge">
   <a href="https://www.facebook.com/M2NumeriqueCaen/?fref=ts"><i class="fa fa-facebook-official"></i></a>

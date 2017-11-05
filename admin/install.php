@@ -58,20 +58,22 @@
        <p><input name="email" type="email" placeholder="Email..." oninput="this.className = ''" required></p>
        <p><input name="password" type="password" placeholder="Mot de Passe..." oninput="this.className = ''" required></p>
        <p><input name="password2" type="password" placeholder="Confirmation..." oninput="this.className = ''" required></p>
+       <!-- <p><input type="submit" name="submit" value="Submit" /></p> -->
      </div>
 
      <div style="overflow:auto;">
        <div style="float:right;">
-         <input type="button" id="prevBtn" onclick="nextPrev(-1)" value="Précedent">
-         <input type="button" id="nextBtn" onclick="nextPrev(1)"value="Suivant">
+         <button type="button" id="prevBtn" onclick="nextPrev(-1)">Précédent</button>
+         <button type="button" name="valider" id="nextBtn" onclick="nextPrev(1)">Suivant</button>
        </div>
+     </div>
+
        <div style="text-align:center;margin-top:40px;">
          <span class="step"></span>
          <span class="step"></span>
        </div>
    </div>
  </form>
- </div>
 
    <!-- Footer -->
    <footer class="w3-container w3-padding-64 w3-center w3-black w3-xlarge">

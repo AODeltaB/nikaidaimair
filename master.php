@@ -41,7 +41,7 @@
     </div>
   </nav>
 
-  <div class="page-wrap">
+  <div id="content">
 
     Content!
 
